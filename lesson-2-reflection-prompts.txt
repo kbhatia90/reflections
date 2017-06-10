@@ -1,0 +1,31 @@
+What happens when you initialize a repository? Why do you need to do it?
+	It creates a git repository. I can track the history of all the files.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+	Repo contains all the commits while pwd has the latest changes.
+	Staging area gives me the flexibility to only commit few out of all the 
+	files for logical commit. 
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+	Staging area gives me the flexibility to only commit few out of all the 
+	files for logical commit. 
+	
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+	In case of a new experimental feature/ bug fix, my master would stay as it 
+	is. 
+
+How do the diagrams help you visualize the branch structure?
+	Diagrams show the non linear commits in a more understandable format.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+	The commits are merged. Its easier to comprehend and see which 
+	commits are merged and are accessible.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+	Auto : Pros - reduces effort, cons - can cause side effects.
+	Manual:Pros - logical merging,cons - increased effort
